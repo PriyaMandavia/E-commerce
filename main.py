@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import uvicorn
 from app.authentication import endpoint as userendpoint
 from app.src import routes
-from app.src.smtp import endpoint as smtpendpoint
+
 
 app = FastAPI()
 
