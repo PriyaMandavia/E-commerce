@@ -9,7 +9,7 @@ app = FastAPI()
 
 app.include_router(userendpoint.router)
 app.include_router(routes.router)
-app.include_router(smtpendpoint.router)
+
 
 
 @app.get("/")
